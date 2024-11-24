@@ -5,6 +5,7 @@ strategy engine (implement and execute trade strategies based on market data)
 strategy & rule parser (parse strategy & rule files)
   - for now: just simple options such as put and call
 
+trade indicators
 risk management system (enfore risk limits)
 financial modeling and statistics (R & Trading.jl/Julia)
 
