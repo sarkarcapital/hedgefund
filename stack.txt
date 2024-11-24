@@ -1,5 +1,5 @@
 data acquisition (market data feed handler)
-  - FIX protocol, websockets
+  - FIX protocol, NYSE, Nasdaq ITCH, websockets
 
 strategy engine (implement and execute trade strategies based on market data)
 strategy & rule parser (parse strategy & rule files)
