@@ -1,0 +1,11 @@
+data acquisition (market data feed handler)
+strategy engine (implement and execute trade strategies based on market data)
+strategy & rule parser (parse strategy & rule files)
+risk management system (enfore risk limits)
+order execution engine (send orders to exchanges and execute trades)
+order book
+latency optimizations & profiling
+backtesting & simulation (simulate trade strategies on historical data before deployment)
+high performance logging and monitoring
+market connectivity (API/Integration layer with redundant FIX engines)
+
