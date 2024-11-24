@@ -6,6 +6,7 @@ strategy & rule parser (parse strategy & rule files)
   - for now: just simple options such as put and call
 
 risk management system (enfore risk limits)
+financial modeling and statistics (R & Trading.jl/Julia)
 
 order execution engine (send orders to exchanges and execute trades)
 
