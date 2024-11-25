@@ -1,8 +1,9 @@
 -module(app).
--export([helloworld/0, conc_hello/1]).
+-export([helloworld/0, conc_hello/0]).
 
 helloworld() ->
   io:fwrite("hello world!~n").
 
-conc_hello(N) ->
-  [spawn(fun helloworld/0) || _ <- lists:seq(1, N)].
+%% spawn 10'000 instances of helloworld()
+conc_hello() ->
+  [spawn(fun helloworld/0) || _ <- lists:seq(1, 10000)].
