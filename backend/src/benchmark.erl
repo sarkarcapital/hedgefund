@@ -13,4 +13,3 @@ conc_hello() ->
     %%EndTime = erlang:monotonic_time(),
     Duration = erlang:monotonic_time() - StartTime,
     io:format("Total time for completion: ~p~n", [Duration]).
-

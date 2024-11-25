@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc . top level supervisor.
+%% @doc backend top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(._sup).
+-module(backend_sup).
 
 -behaviour(supervisor).
 

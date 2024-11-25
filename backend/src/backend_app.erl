@@ -1,16 +1,16 @@
 %%%-------------------------------------------------------------------
-%% @doc . public API
+%% @doc backend public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(._app).
+-module(backend_app).
 
 -behaviour(application).
 
 -export([start/2, stop/1]).
 
 start(_StartType, _StartArgs) ->
-    ._sup:start_link().
+    backend_sup:start_link().
 
 stop(_State) ->
     ok.

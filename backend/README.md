@@ -1,4 +1,4 @@
-.
+backend
 =====
 
 An OTP application
