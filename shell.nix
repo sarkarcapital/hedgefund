@@ -4,6 +4,7 @@ pkgs.mkShell {
   buildInputs = [
     pkgs.erlang
     pkgs.elmPackages.elm
+    pkgs.rebar3
   ];
 
   shellhook = ''
