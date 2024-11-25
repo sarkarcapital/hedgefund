@@ -1,3 +1,8 @@
+tech stack:
+  - Erlang-OPT/BEAM (Execution and Core Logic)
+  - Elm (Application UI)
+  - Python (Backtesting and Modeling)
+
 data acquisition (market data feed handler)
   - FIX protocol, NYSE, Nasdaq ITCH, websockets
 
@@ -7,7 +12,7 @@ strategy & rule parser (parse strategy & rule files)
 
 trade indicators
 risk management system (enfore risk limits)
-financial modeling and statistics (R & Trading.jl/Julia)
+financial modeling and statistics (python)
 
 order execution engine (send orders to exchanges and execute trades)
 
