@@ -8,7 +8,10 @@ pkgs.mkShell {
   ];
 
   shellhook = ''
-    erlc erlang/app.erl
-    elm reactor    
+    cd backend/
+    rebar3 compile
+    cd ..
+    cd frontend/
+    elm reactor   
   '';
 }
