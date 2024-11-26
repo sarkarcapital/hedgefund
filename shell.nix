@@ -10,8 +10,10 @@ pkgs.mkShell {
   shellhook = ''
     cd backend/
     rebar3 compile
-    cd ..
-    cd frontend/
-    elm reactor   
+
+    echo "run 'erl' then run this commands: "
+    echo "application:start(sasl),"
+    echo "fix_supervisor:start_link()."
+    echo "fix_client:start("127.0.0.1", 12345, 1000000)."
   '';
 }
