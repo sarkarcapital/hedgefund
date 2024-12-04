@@ -13,3 +13,5 @@ System Requirements
 - Matching Engine in Exchange Co-Location Facility
 - disruptor-rs LMAX lib with ~9ns latency and 100 M tps
 - hardware clock instead of OS: https://www.felixcloutier.com/x86/rdtscp
+- high performance websockets on Tokio stack: https://github.com/Gelbpunkt/tokio-websockets
+- SIMD optimizations
