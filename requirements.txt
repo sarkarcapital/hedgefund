@@ -11,3 +11,5 @@ System Requirements
 - Concurrent handling of multiple trading algos
 - FIX, NASDAQ ITCH
 - Matching Engine in Exchange Co-Location Facility
+- disruptor-rs LMAX lib with ~9ns latency and 100 M tps
+- hardware clock instead of OS: https://www.felixcloutier.com/x86/rdtscp
