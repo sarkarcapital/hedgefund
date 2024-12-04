@@ -10,3 +10,4 @@ System Requirements
 - L2/L3 based Orderbooks
 - Concurrent handling of multiple trading algos
 - FIX, NASDAQ ITCH
+- Matching Engine in Exchange Co-Location Facility
