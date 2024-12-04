@@ -1,7 +1,8 @@
 tech stack:
-  - Erlang-OPT/BEAM (Execution and Core Logic)
+  - Scala/Akka(Execution and Core Logic)
   - Elm (Application UI)
   - Python (Backtesting and Modeling)
+  - NixOS (DevOps)
 
 data acquisition (market data feed handler)
   - FIX protocol, NYSE, Nasdaq ITCH, websockets
@@ -25,4 +26,3 @@ latency optimizations & profiling
 backtesting & simulation (simulate trade strategies on historical data before deployment)
 high performance logging and monitoring
 market connectivity (API/Integration layer with redundant FIX engines)
-
